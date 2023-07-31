@@ -3,10 +3,11 @@ import styles from "../style";
 import { arrowUp } from "../assets";
 const GetStarted = () => (
   <div
-    className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+    className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer
+    `}
   >
     <div
-      className={`${styles.flexCenter} flex-col bg-primary w-full h-full rounded-full`}
+      className={`${styles.flexCenter} flex-col bg-primary w-full h-full rounded-full transition-all duration-200 hover:scale-90`}
     >
       <div className={`${styles.flexStart} flex-row`}>
         <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
